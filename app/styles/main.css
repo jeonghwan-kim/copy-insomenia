@@ -5,11 +5,23 @@ body {
 .navbar {
   border-bottom: none;
   padding: 10px;
+  -webkit-transition: 0.3s;
 }
-.navbar-inverse .navbar-nav >
-.active > a{
+.red {
+  background: red;
+}
+.black {
+  background: black;
+}
+.navbar-brand {
+  color: #48CCE0 !important;
+  font-weight: 900;
+}
+.navbar-inverse .navbar-nav > li > .active,
+.navbar-inverse .navbar-nav > li > .active:hover {
   background-color: #48CCE0;
   border-radius: 3px;
+  color: white !important;
 }
 
 .section {
@@ -60,4 +72,18 @@ body {
   padding: 30px 0;
   margin: -10px auto 30px;
   width: 360px;
+}
+
+.tech-img {
+  width: 200px;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+
+#contact {
+  background-color: black;
+  color: white;
+}
+.footer {
+  padding: 30px 10px 30px;
 }
