@@ -1,7 +1,7 @@
 copy-insomenia
 ==============
 
-Copy insomenia homepage by angularjs
+Copy [insomenia](http://www.insomenia.com/) homepage by angularjs
 
 * [Angular-fullstack](https://www.npmjs.org/package/generator-angular-fullstack)
 * [Angular-scroll](https://github.com/durated/angular-scroll)
